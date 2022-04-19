@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import { Outlet, Link } from 'react-router-dom';
 import './App.css';
 
-export class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello World!</h1>
-      </div>
-    )
-  }
-}
-
-export default App;
+export default function App() {
+  return (
+    <div>
+      <h1>A TODO FULLSTACK!</h1>
+      <nav style={{ borderBottom: "solid 1px", paddingBottom: "1rem", }}>
+        <Link to="home">Home</Link> |{" "}
+        <Link to="create-task">Create-Task</Link> 
+      </nav>
+      <Outlet />
+    </div>
+  );
+}; 
