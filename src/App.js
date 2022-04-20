@@ -1,7 +1,9 @@
+import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
+
 import './App.css';
 
-export default function App() {
+function App() {
   return (
     <div>
       <h1>A TODO FULLSTACK!</h1>
@@ -13,3 +15,5 @@ export default function App() {
     </div>
   );
 }; 
+
+export default App;

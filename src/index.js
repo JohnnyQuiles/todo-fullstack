@@ -1,8 +1,10 @@
+import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import CreateTasks from './Pages/Create-task'
 import App from './App';
+import Home from './Pages/Home';
+import CreateTasks from './Pages/Create-task';
+
 
 render(
   <BrowserRouter>
