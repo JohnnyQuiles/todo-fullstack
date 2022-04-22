@@ -1,4 +1,4 @@
-# TODO FULL STACK 
+# TODO-FULLSTACK 
 
 Stage 1 (React, React-Router, Redux)
     - Implement the below requirements using React, Redux, and React Router:
